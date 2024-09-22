@@ -1,0 +1,1 @@
+valgrind --leak-check=full          --show-leak-kinds=all          --track-origins=yes          --verbose          --log-file=valgrind-out.txt          ./s-talk 5001 127.0.0.1 5000
