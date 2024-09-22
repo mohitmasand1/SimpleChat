@@ -1,1 +1,3 @@
 # SimpleChat
+
+SimpleChat is a terminal-based chat application developed in C, designed to handle network communication efficiently using pthreads and UNIX sockets. The application implements a multi-threaded architecture to support concurrent client connections, ensuring smooth performance even under load. Thread management is handled through mutexes and condition variables to maintain synchronization across different processes. SimpleChat enables secure and reliable data transmission between multiple terminals, offering users a seamless real-time chat experience. This project demonstrates key concepts in network programming, multi-threading, and synchronization, making it an ideal foundation for more advanced networking applications.
